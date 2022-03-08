@@ -1,0 +1,20 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "version": "4.4.2",
+  "compilerOptions": {
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "resolveJsonModule": true,
+    "rootDir": "./src",
+    "outDir": "./build",
+    "strict": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.json" ],
+  "exclude": [
+    "node_modules"
+  ]
+}

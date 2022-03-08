@@ -1,0 +1,9 @@
+.idea
+node_modules
+build
+package-lock.json
+.vscode
+client
+.DStore
+lib
+tsconfig.tsbuildinfo
